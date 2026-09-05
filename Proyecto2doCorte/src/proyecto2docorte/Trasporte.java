@@ -76,4 +76,15 @@ public class Trasporte
         this.disponible = disponible;
     }
     
+    /*toString sirve para representar un objeto como texto de una manera legible.
+    lo SOBRESCRIBIMOS para que cuando imprimamos un objeto de tipo Trasporte, se
+    muestre sus atributos en lugar de una información poco útil del objeto*/
+    @Override
+    public String toString() {
+        return "-----Trasporte-----" 
+                + "\n Destino = " +destino
+                + "\n Capacidad = " +capacidad 
+                + "\n Precio = " +precio 
+                + "\n Disponible = " +disponible;
+    }
 }
