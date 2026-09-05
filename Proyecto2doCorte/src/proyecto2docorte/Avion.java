@@ -42,5 +42,14 @@ public class Avion
         this.numeroVuelo = numeroVuelo;
         this.horasVuelo = horasVuelo;
         this.escala = escala;
-    }   
+    }  
+
+     @Override
+    public String toString() {
+        return "-----Avion-----" 
+                + "Aerolinea = " + aerolinea 
+                + "Numero de Vuelo = " + numeroVuelo 
+                + "Horas de Vuelo = " + horasVuelo 
+                + "Escala = " + escala ;
+    }
 }
