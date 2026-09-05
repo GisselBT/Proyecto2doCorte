@@ -20,6 +20,12 @@ public class Trasporte
 
     public Trasporte(String destino, double precio) 
     {
+        /* Este this(); significs llamar al constructo que no recibe 
+        parametros y con el 
+        this.destino hacemos referencia al atributo 
+        destino, capacidad,... del objeto para a
+        asignarle valores que recibimos como parametros*/
+        this();
         this.destino = destino;
         this.precio = precio;
     }
@@ -31,5 +37,43 @@ public class Trasporte
         this.precio = precio;
         this.disponible = disponible;
     } 
+
+     // GETTERS Y SETTERS
+
+    public String getDestino() 
+    {
+        return destino;
+    }
+    public void setDestino(String destino) 
+    {
+        this.destino = destino;
+    }
+    
+    public int getCapacidad() 
+    {
+        return capacidad;
+    }
+    public void setCapacidad(int capacidad) 
+    {
+        this.capacidad = capacidad;
+    }
+    
+    public double getPrecio() 
+    {
+        return precio;
+    }
+    public void setPrecio(double precio) 
+    {
+        this.precio = precio;
+    }
+
+    public boolean isDisponible() 
+    {
+        return disponible;
+    }
+    public void setDisponible(boolean disponible) 
+    {
+        this.disponible = disponible;
+    }
     
 }
