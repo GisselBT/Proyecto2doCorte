@@ -15,4 +15,31 @@ public class Barco
     private double velocidad;
     private boolean tienePiscina;
     
+      //CONSTRUCTORES
+
+    public Barco() 
+    {
+        super();
+        this.empresaNaviera = "Sin empresa";
+        this.numeroCubierta = 0;
+        this.velocidad = 0.0;
+        this.tienePiscina = false;
+    }
+
+    public Barco(String empresaNaviera, int numeroCubierta, String destino, double precio) 
+    {
+        super(destino, precio);
+        this.empresaNaviera = empresaNaviera;
+        this.numeroCubierta = numeroCubierta;
+    }
+
+    public Barco(String empresaNaviera, int numeroCubierta, double velocidad, boolean tienePiscina, String destino, int capacidad, double precio, boolean disponible) 
+    {
+        super(destino, capacidad, precio, disponible);
+        this.empresaNaviera = empresaNaviera;
+        this.numeroCubierta = numeroCubierta;
+        this.velocidad = velocidad;
+        this.tienePiscina = tienePiscina;
+    }
+    
 }
