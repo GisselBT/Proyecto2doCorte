@@ -8,6 +8,11 @@ package proyecto2docorte;
  *
  * @author admin
  */
-public class Barco {
+public class Barco 
+{
+    private String empresaNaviera;
+    private int numeroCubierta;
+    private double velocidad;
+    private boolean tienePiscina;
     
 }
