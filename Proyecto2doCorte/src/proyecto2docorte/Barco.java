@@ -41,5 +41,51 @@ public class Barco
         this.velocidad = velocidad;
         this.tienePiscina = tienePiscina;
     }
+
+    //GETTERS Y SETTERS
+    public String getEmpresaNaviera() 
+    {
+        return empresaNaviera;
+    }
+    public void setEmpresaNaviera(String empresaNaviera) 
+    {
+        this.empresaNaviera = empresaNaviera;
+    }
     
+    public int getNumeroCubierta() 
+    {
+        return numeroCubierta;
+    }
+    public void setNumeroCubierta(int numeroCubierta) 
+    {
+        this.numeroCubierta = numeroCubierta;
+    }
+
+    public double getVelocidad() 
+    {
+        return velocidad;
+    }
+    public void setVelocidad(double velocidad) 
+    {
+        this.velocidad = velocidad;
+    }
+
+    public boolean isTienePiscina() 
+    {
+        return tienePiscina;
+    }
+    public void setTienePiscina(boolean tienePiscina) 
+    {
+        this.tienePiscina = tienePiscina;
+    }
+
+    @Override
+    public String toString() {
+        return "-----Barco-----" 
+                + "\nEmpresa Naviera = " + empresaNaviera 
+                + "\nNumero de Cubierta = " + numeroCubierta 
+                + "\nVelocidad maxima = " + velocidad 
+                + "\nTiene Piscina = " + tienePiscina;
+    }
+      
 }
