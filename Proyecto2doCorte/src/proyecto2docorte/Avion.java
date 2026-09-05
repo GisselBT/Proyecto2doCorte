@@ -8,6 +8,11 @@ package proyecto2docorte;
  *
  * @author admin
  */
-public class Avion {
+public class Avion 
+{
+    private String aerolinea;
+    private int numeroVuelo;
+    private double horasVuelo;
+    private boolean escala;
     
 }
