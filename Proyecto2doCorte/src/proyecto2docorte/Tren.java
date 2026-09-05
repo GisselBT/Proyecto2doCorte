@@ -8,6 +8,11 @@ package proyecto2docorte;
  *
  * @author admin
  */
-public class Tren {
+public class Tren 
+{
+    private String tipoTren;
+    private int numeroVagones;
+    private double velocidadMaxima;
+    private boolean danComida;
     
 }
