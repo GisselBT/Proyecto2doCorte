@@ -86,6 +86,5 @@ public class Barco
                 + "\nNumero de Cubierta = " + numeroCubierta 
                 + "\nVelocidad maxima = " + velocidad 
                 + "\nTiene Piscina = " + tienePiscina;
-    }
-      
+    }  
 }

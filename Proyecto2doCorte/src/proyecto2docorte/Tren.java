@@ -41,5 +41,52 @@ public class Tren
         this.velocidadMaxima = velocidadMaxima;
         this.danComida = danComida;
     } 
+
+    //GETTERS Y SETTERS
+
+    public String getTipoTren() 
+    {
+        return tipoTren;
+    }
+    public void setTipoTren(String tipoTren) 
+    {
+        this.tipoTren = tipoTren;
+    }
+    
+    public int getNumeroVagones() 
+    {
+        return numeroVagones;
+    }
+    public void setNumeroVagones(int numeroVagones) 
+    {
+        this.numeroVagones = numeroVagones;
+    }
+
+    public double getVelocidadMaxima() 
+    {
+        return velocidadMaxima;
+    }
+    public void setVelocidadMaxima(double velocidadMaxima) 
+    {
+        this.velocidadMaxima = velocidadMaxima;
+    }
+    
+    public boolean isDanComida() 
+    {
+        return danComida;
+    }
+    public void setDanComida(boolean danComida) 
+    {
+        this.danComida = danComida;
+    }
+
+    @Override
+    public String toString() {
+        return "----Tren-----"
+                +"\nTipo de Tren = " + tipoTren 
+                +"\nNumero de vagones = " + numeroVagones
+                +"\nVelocidad maxima = "+velocidadMaxima 
+                +"\nDan comida = "+ danComida;
+    }
     
 }
